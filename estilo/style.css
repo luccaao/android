@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'beba';
+    src: url(BebasNeue-Regular.otf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'android';
+    src: url(idroid.otf) format('opentype');
+}
+:root{
+    --fonte-padrao: 'beba','cursive';
+    --fonte-android: 'android','cursive';
+}
+
+header{
+    background-image: linear-gradient(to top,#377536,#9bd89a);
+    padding: 20px;
+    font-family:var(--fonte-padrao) ;
+    font-size: 25px;
+    
+    color: aliceblue;
+    text-align: center;
+    background-color: #377536;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px black;
+    
+}
+header>p{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+
+
+}
+nav{
+    text-align: center;
+    background-color: #000000;
+    
+    
+    padding: 15px;
+}
+nav>a{
+    
+    padding: 10px;
+    font-size:20px ;
+    color: #c5ebd6;
+    font-family: var(--fonte-padrao);
+    box-shadow:2px 2px 0px rgba(0, 0, 0, 0.356) ;
+}
+nav>a:hover{
+    background-color: chartreuse;
+    transition-duration: 0.7s;
+}
+
+article>h1{
+    font-family: var(--fonte-android);
+    color: #165715;
+}
+article>h2{
+    font-family: var(--fonte-android);
+    color: #165715;
+}
+article>h3{
+    font-family: var(--fonte-android);
+    color: #165715;
+}
+
+
+
+
+body{
+
+    background-color: #c5ebd6;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: chartreuse;
+}
+footer>p>a{
+    color: rgb(255, 1, 1);
+}
+
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+* {
+    margin: 0px;
+}
+aside{
+    
+    padding: 10px;
+    
+    border-radius: 30px;
+    width: auto;
+    background-color: #377536;
+    color: white;
+}
+aside>h3{
+    color:white;
+    text-align: center;
+}
+main p {
+    text-align: justify;
+}
+main{
+    padding: 20px;
+    border-radius: 5px;
+    background-color:#ffffff ;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.288);
+}
+
+img{
+    width: 100%;
+}
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+
+
